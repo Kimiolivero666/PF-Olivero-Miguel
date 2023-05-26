@@ -1,0 +1,729 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+  
+  *{
+    
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
+  }
+
+  $red:#cc1e03;
+  $black:#101010;
+  $gray:#c8c8c8;
+  $white: #fff;
+  $yellow:#FDC504;
+
+  $font-banner:'Gilroy-Bold', sans-serif;
+
+  .header{
+    background: $black;
+  }
+
+
+.logo{
+  img{
+    cursor: pointer;
+    height: 70px;
+    width: auto;
+  }
+  img:hover{
+    transform: scale(1.1);
+  }
+}
+.navbar-nav{
+  a{
+    color: $white;
+    margin: 0.7rem;
+  }
+}
+.navbar-nav li a:hover{
+  color: $gray;
+  border-bottom: .1rem solid $yellow;
+}
+.redes a img:hover{
+  transform: scale(1.1);
+}
+
+.fa-bars{
+  color: #fff;
+}
+.navbar-toggler{
+  border: none;
+}
+
+// INICIO
+
+// JUMBATRON
+
+.banner{
+    width: 100%;
+    height: 88vh;
+    background-image: url(imagenes/banner\ inicio.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+    border-radius: 0;
+    h1{
+      color: $yellow;
+      font-size: 50px;
+      padding-bottom: 100px;
+      font-family: $font-banner; 
+    }
+  }
+
+  // NOSOTROS
+
+.banner-nosotros{
+    background-image: url(imagenes/banner\ nosotros.png);
+    background-position: center;
+    background-size: cover ;
+    height: 300px;
+    border-radius: 0;
+    h2{
+      color: $yellow;
+      font-size: 60px;
+      padding-left: 10%;
+      padding-top: 7%;
+      font-family: $font-banner;
+    }
+    }
+  
+    .informacion{
+      h3{
+        font-size: 60px;
+        margin-top: 80px;
+        display: inline-block;
+        position: relative;
+      } 
+      h3::after{
+        content: '';
+        position: absolute;
+        width: 420px;
+        height: 5px;
+        background-color: $yellow;
+        top: 3rem;
+        right: -550px;
+    } 
+    
+    p{
+     font-size: 25px;
+     padding-right: 20%;
+    }
+  }
+  
+
+  // footer
+
+footer{
+    background-color: $black;
+  }
+  .logos-footer{
+    padding-top:10px;  
+  }
+  .logos-footer a img:hover{
+    transform: scale(1.1);
+  }
+  .li-footer{
+    color: $white;
+    font-size: 10px;
+    padding-top:20px; 
+  }
+
+  // PRODUCTOS
+
+.banner-productos{
+    background-image: url(imagenes/banner\ productos.png);
+    background-position: center;
+    background-size: cover ;
+    height: 300px;
+    border-radius: 0;
+    h2{
+      color: $yellow;
+      font-size: 60px;
+      padding-left: 10%;
+      padding-top: 7%;
+      font-family: $font-banner;
+  }
+    }
+  
+    video{
+      width: 90%;
+      margin: 0 auto;
+      display: block;
+      margin-top: 100px;
+      padding-bottom: 100px;
+     }
+  
+  .tarjetas-productos{
+    padding-bottom: 60px;
+  }
+  .card-body{
+      background-image: url(imagenes/tarjeta\ 1.png);
+      height: 210px;
+  }   
+  
+  .card-title{
+      padding-top: 40px;
+      color: $yellow;
+      font-size: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      }
+  
+  .card-body2{
+      background-image: url(imagenes/tarjeta\ 2.png);
+      height: 210px;
+  }
+  
+
+  .boton{
+      text-align: center;
+      }
+  
+  .btn{
+      color: $white;
+      }
+  
+  .card:hover{
+      transform: scale(1.1);
+      transition: 0.5s;
+  }
+
+    // MUROS
+
+.titulo h2{
+  font-size: 70px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  display: inline-block;
+  position: relative;
+}
+.titulo h2::after{
+  content:'';
+  position: absolute;
+  width: 820px;
+  height: 5px;
+  background-color: $yellow;
+  top: 9rem;
+  right: -950px;
+}
+.fotos{
+  img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+}
+.cont-texto{
+  padding-right: 12%;
+  h4{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+p{
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+h5{
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-size: 25px;
+}
+h5 img:hover{
+  transform: scale(1.1);
+}
+}
+.vectores{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+// PROYECTOS
+
+.banner-proyectos{
+  background-image: url(imagenes/banner\ proyectos.png);
+  background-position: center;
+  background-size: cover ;
+  height: 300px;
+  border-radius: 0;
+  h2{
+    color: $yellow;
+    font-size: 60px;
+    padding-left: 10%;
+    padding-top: 7%;
+    font-family: $font-banner;
+}
+  }
+
+.tarjetas-productos{
+  padding-top: 100px;
+}
+
+.card-title3{
+  padding-top: 40px;
+  color: $yellow;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+
+
+// OBRAS GENERALES
+
+.Obras-Generales{
+  h2{
+    font-size: 70px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    display: inline-block;
+    position: relative;
+  }
+  
+      h2::after{
+        content: '';
+      position: absolute;
+      width: 420px;
+      height: 5px;
+      background-color: $yellow;
+      top: 9rem;
+      right: -550px;
+      }
+}
+
+.carousel-caption h5{
+  font-size: 20px;
+  background-color: $black;
+  border-right: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+
+.title{
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Gilroy-Bold', sans-serif;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.ultimo-carrusel{
+  padding-bottom: 15%;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+  width: 50px;
+  height: 50px;
+  background-color: $yellow;
+  border-radius: 50%;
+  top: calc(50% - 25px);
+}
+.carousel-control-prev{
+  left: 5%;
+}
+.carousel-control-next{
+right: 5%;
+}
+
+// OBRAS EN SAN LUIS
+
+.parrafo-OG{
+  P{
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+span{
+  font-family: 'Gilroy-Bold', sans-serif;
+}
+}
+
+// CONTACTO
+
+.banner-contacto{
+  background-image: url(imagenes/banner\ contacto.png);
+  background-position: center;
+  background-size: cover ;
+  height: 300px;
+  border-radius: 0;
+  h2{
+    color: $yellow;
+    font-size: 60px;
+    padding-left: 10%;
+    padding-top: 7%;
+    font-family: $font-banner;
+}
+  }
+
+  .input-box{
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 10%;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0 10px 0 10px; 
+}
+.input-field label{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 30px;
+}
+.input{
+    height: 60px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid $yellow;
+    outline: none;
+    margin-bottom: 80px;
+    color: #40414a;
+}
+.input-box .input-field label{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+    transition: .5s;
+}
+.input-field .input:focus ~ label{
+    top: -10px;
+    font-size: 13px;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+.input-field .input:valid ~ label{
+    top: -10px;
+    font-size: 13px;
+    color: #5d5076;
+}
+
+.input-informacion{
+    flex-direction: column;
+    padding-top: 100px;
+    display: block;
+}
+.logo-informacion img{
+    width: 300px;
+    padding-left: 7%;
+}
+.informacion li{
+    width: 400px;
+    list-style: none;
+    color: #848484;
+}
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+  // mobile
+
+// inicio
+
+@media screen and (max-width: 768px){
+  .banner{
+    h1{
+      font-size: 40px;
+      padding-bottom: 50px;
+    }
+    img{
+      width: 250px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 450px){
+    .banner{
+     
+      img{
+        width: 200px;
+      }
+    }
+  }
+
+  // nosotros
+
+
+@media screen and (max-width: 1240px){
+    .informacion{
+      h3{
+        font-size: 40px;
+      }  
+      p{
+        font-size: 20px;
+        padding-right: 20%;
+      }
+      h3::after{
+        height: 4px;
+        top: 2rem;
+      }
+    }
+  }
+  @media screen and (max-width: 993px){
+    .informacion{  
+      p{
+        padding-right: 20%;
+        font-size: 20px;
+    }
+    h3::after{
+      height: 4px;
+      top: 2rem;
+      width: 320px;
+      right: -350px
+    } 
+  }
+  }
+  @media screen and (max-width: 768px){
+    .informacion{  
+      p{
+        padding-right: 10%;
+    }
+    h3::after{
+      display: none;
+  } 
+  }
+  }
+  
+  @media screen and (max-width: 320px){
+    .banner-nosotros{
+      h2{
+        font-size: 50px;
+        padding-left: 15%;
+        padding-top: 20%;
+      }
+    }
+    .informacion{
+      h3{
+        font-size: 30px;
+      }  
+      p{
+        font-size: 15px;
+        padding-right: 0;
+      } 
+    }
+  }
+
+  // productos
+
+@media screen and (max-width: 320px){
+
+  .banner-productos{
+    h2{
+      font-size: 50px;
+      padding-left: 10%;
+      padding-top: 20%;
+  }
+}
+     
+    .card-title{
+      font-size: 50px;
+    }
+  }
+
+  // muros y techos
+
+@media screen and (max-width: 1350px){
+  .titulo h2::after{
+      width: 620px;
+      height: 4px;
+      right: -650px;
+  }
+}
+@media screen and (max-width: 992px){
+  .titulo h2::after{
+      width: 420px;
+      height: 3px;
+      right: -450px;
+  }
+  .cont-texto{
+
+    h4{
+       font-size: 20px;
+       padding-bottom: 10px;
+   }
+    p{
+       font-size: 15px;
+       padding-bottom: 10px;
+   }
+    h5{
+       font-size: 15px;
+   }
+  }
+  .vectores{
+     img{
+        width: 50px;
+    }
+     p{
+        font-size: 10px;
+    }
+  }
+  
+}
+@media screen and (max-width: 768px){
+  .titulo{
+    h2{
+        font-size: 50px;
+    }
+    h2::after{
+        display: none;
+    }
+  }
+    
+}
+@media screen and (max-width: 337px){
+  .titulo h2::after{
+      display: none;
+  }
+}
+
+// proyectos
+
+@media screen and (max-width: 991px){
+  .card-title3{
+       font-size: 35px;
+     }
+}
+
+
+@media screen and (max-width: 320px){
+  .banner-proyectos{
+    h2{
+      font-size: 50px;
+      padding-left: 10%;
+      padding-top: 20%;
+    }
+  }
+  .card-title3{
+    font-size: 30px;
+  }
+}
+
+
+// @media screen and (max-width: 991px){
+//   .card-title{
+//     font-size: 30px;
+//   }
+
+// }
+
+// obras generales
+
+
+@media screen and (max-width: 1202px){
+  .Obras-Generales h2::after{
+      width: 320px;
+      height: 4px;
+      right: -350px;
+  }
+}
+
+@media screen and (max-width: 994px){
+  .Obras-Generales{
+    h2{
+      font-size: 50px;
+    }
+  }
+  .Obras-Generales h2::after{
+    width: 220px;
+    height: 3px;
+    right: -290px;
+    top: 8rem;
+}
+.title{
+  font-size: 30px;
+}
+
+.carousel-caption{
+  h5{
+    font-size: 10px;
+  }
+}
+}
+
+@media screen and (max-width: 769px){
+  .Obras-Generales h2::after{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 445px){
+  .Obras-Generales{
+    h2{
+      font-size: 35px;
+    }
+  }
+  .title{
+    font-size: 20px;
+  }
+}
+
+// obras en san luis
+
+@media screen and (max-width: 445px){
+.parrafo-OG{
+  p{
+    font-size: 20px;
+  }
+}
+}
+
+// contacto
+
+@media screen and (max-width: 426px){
+  .formulario{
+    label{
+      font-size: 20px;
+    }
+  }
+  .logo-informacion{
+    img{
+      width: 200px;
+      padding-left: 0;
+    }
+  }
+  .informacion{
+    padding-left: 0;
+    li{
+      width: 250px;
+      font-size: 10px;
+      padding-left: 0;
+    }
+  }
+}
+@media screen and (max-width: 321px){
+  .banner-contacto{
+    h2{
+      font-size: 50px;
+      padding-left: 10%;
+      padding-top: 20%;
+  }
+    }
+}
+
+
+
+
+
+  
+
+  
+  
