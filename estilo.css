@@ -167,7 +167,7 @@ video {
 
 .card:hover {
   transform: scale(1.1);
-  transition: 0.5s;
+  transition: 0.5s ease-in-out;
 }
 
 .titulo h2 {
@@ -190,7 +190,7 @@ video {
 
 .fotos img:hover {
   transform: scale(1.1);
-  transition: 0.5s;
+  transition: 0.5s ease-in-out;
 }
 
 .cont-texto {
@@ -211,6 +211,7 @@ video {
 }
 .cont-texto h5 img:hover {
   transform: scale(1.1);
+  transition: 0.5s ease-in-out;
 }
 
 .vectores {

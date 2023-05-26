@@ -189,7 +189,7 @@ footer{
   
   .card:hover{
       transform: scale(1.1);
-      transition: 0.5s;
+      transition: .5s ease-in-out;
   }
 
     // MUROS
@@ -213,7 +213,7 @@ footer{
 .fotos{
   img:hover{
     transform: scale(1.1);
-    transition: 0.5s;
+    transition: .5s ease-in-out;
   }
 }
 .cont-texto{
@@ -233,6 +233,7 @@ h5{
 }
 h5 img:hover{
   transform: scale(1.1);
+  transition: .5s ease-in-out;
 }
 }
 .vectores{
